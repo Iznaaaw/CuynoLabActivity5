@@ -51,7 +51,7 @@ public class FoodOrderGUI extends JFrame{
                 if(rb15.isSelected()){
                     totalPrice *= 0.15;
                 }
-                JOptionPane.showMessageDialog(PanelMain, totalPrice);
+                JOptionPane.showMessageDialog(PanelMain,"The total price is " + totalPrice);
             }
         });
     }
